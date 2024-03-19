@@ -1,0 +1,17 @@
+.rodape {
+    background: #bfbfbf;
+    color: #fdfdfd;
+    text-align: right;
+    padding: 1.52625rem 5rem ;
+    text-transform: lowercase;
+}
+
+/* background: #bfbfbf - para definirmos que o fundo terá uma cor cinza;
+
+color: #fdfdfd - para definirmos a cor do texto;
+
+text-align: right - para alinharmos o texto à direita;
+
+padding: 1.5625rem 5rem - definindo o espaçamento superior e inferior;
+
+text-transform: lowercase - de modo que todo o texto esteja em caixa baixa. */

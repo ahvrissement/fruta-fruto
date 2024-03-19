@@ -1,0 +1,27 @@
+.pessoa__imagem {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    height: 300px;
+    margin: 0 auto;
+    width: 300px;
+}
+
+/* Usaremos o parâmetro background-repeat: no-repeat, além de background-size: cover para que as imagens ocupem todo o background e background-position: center para que elas sejam centralizadas na caixa.
+
+O último ajuste será fazer com que elas sejam redondas, e não quadradas. Pra isso, usaremos o parâmetro border-radius: 100%. */
+
+.pessoa__imagem--roberta {
+    background-image: url('../../img/pessoas/roberta.jpg');
+}
+
+.pessoa__imagem--marcela {
+    background-image: url('../../img/pessoas/marcela.jpg');
+}
+
+.pessoa__imagem--andreia {
+    background-image: url('../../img/pessoas/andreia.jpg');
+}
+
+/* Cada um deles recebeu um parâmetro background-image que terá como valor uma função url() que por sua vez receberá uma string indicando o caminho da imagem. Como as imagens estão na pasta "img" do projeto, precisaremos usar ../../assets/img/pessoas para acessá-la, onde cada ../ serve para subir um nível de pasta. Por fim, passaremos o nome de cada arquivo - por exemplo, ../../assets/img/pessoas.jpg. */

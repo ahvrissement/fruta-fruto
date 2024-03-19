@@ -1,0 +1,21 @@
+.pessoas {
+    display: flex;
+    padding-top: 3rem;
+    justify-content: space-around;
+
+}
+
+@media screen and (min-width: 0) {
+    .pessoas {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .pessoas {
+        flex-direction: row;
+    }
+}
+
+
+/* Aqui teremos os parâmetros display: flex e justify-content: space-around para que os elementos sejam justificados de acordo com o espaço na página, além de um padding: 3rem para incluirmos um espaçamento em relação à descrição. */
